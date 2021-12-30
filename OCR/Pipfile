@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pdf2image = "*"
+opencv-python = "*"
+pillow = "*"
+pytesseract = "*"
+matplotlib = "*"
+labelimg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
