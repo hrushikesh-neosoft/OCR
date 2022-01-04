@@ -1,50 +1,50 @@
 <annotation>
-	<folder>resized_images</folder>
+	<folder>images</folder>
 	<filename>1.jpg</filename>
-	<path>/home/hrushikesh/Documents/OCR/resized_images/1.jpg</path>
+	<path>/home/hrushikesh/Documents/object_detection_demo/data/images/1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>800</width>
-		<height>600</height>
+		<width>640</width>
+		<height>640</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>table</name>
+		<name>invoice_title</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>24</xmin>
-			<ymin>239</ymin>
-			<xmax>779</xmax>
-			<ymax>434</ymax>
+			<xmin>131</xmin>
+			<ymin>144</ymin>
+			<xmax>329</xmax>
+			<ymax>194</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>invoice_detail</name>
+		<name>invoice_total</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>24</xmin>
-			<ymin>152</ymin>
-			<xmax>148</xmax>
-			<ymax>227</ymax>
+			<xmin>156</xmin>
+			<ymin>558</ymin>
+			<xmax>413</xmax>
+			<ymax>576</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>total</name>
+		<name>invoice_table</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>598</xmin>
-			<ymin>478</ymin>
-			<xmax>773</xmax>
-			<ymax>517</ymax>
+			<xmin>94</xmin>
+			<ymin>277</ymin>
+			<xmax>409</xmax>
+			<ymax>509</ymax>
 		</bndbox>
 	</object>
 </annotation>
